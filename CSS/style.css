@@ -5,67 +5,14 @@ body {
 div.conteneur {
   display: flex;
   justify-content: space-between;
-  
+  background-color: lightgreen;
   height: auto;
   border: solid;
  }
+ .conteneur>div{
+   background-color: lightskyblue;
+ }
+ .element-z>div {
+   display: inline-block;
+ }
 
-div.element1 {
-  width: 200px;
-  height: 200px;
-  background-color: rgb(204, 21, 21);
-  
-}
-
-div.element2 {
-  width: 200px;
-  height: 200px;
-  background-color: rgb(17, 38, 224);
-}
-
-div.element3 {
-  width: 200px;
-  height: 200px;
-  background-color: rgb(10, 238, 29)
-}
-
-div.Recherche {
-  display: flex;
-justify-content: space-around;
-}
-div.Filtres {
-  width: 200px;
-  height: 200px;
-  background-color: blue
-}
-div.fa-money-bill-wave {
-  width: 200px;
-  height: 200px;
-  background-color: red
-}
-div.fa-child {
-  width: 200px;
-  height: 200px;
-  background-color: yellow
-
-}
-div.fa-heart {
-  width: 200px;
-  height: 200px;
-  background-color: green
-}
-div.fa-dog {
-  width: 200px;
-  height: 200px;
-  background-color:blueviolet
-}
-div.case {
-  display: flex;
-
-}
-div.h1 {
-
-}
-div.fa-chart-line {
-
-}
