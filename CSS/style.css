@@ -16,3 +16,13 @@ div.conteneur {
    display: inline-block;
  }
 
+div.recherche {
+  display: flex;
+  flex-direction: row;
+  background-color: lightpink;
+  height: auto;
+  border: solid;
+}
+.recherche>div {
+  background-color: lightslategrey;
+}
