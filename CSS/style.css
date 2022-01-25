@@ -6,23 +6,15 @@ div.conteneur {
   display: flex;
   justify-content: space-between;
   background-color: lightgreen;
-  height: auto;
+  height: 200px;
   border: solid;
  }
  .conteneur>div{
    background-color: lightskyblue;
+   
  }
  .element-z>div {
    display: inline-block;
+   color: #0065FC; 
  }
 
-div.recherche {
-  display: flex;
-  flex-direction: row;
-  background-color: lightpink;
-  height: auto;
-  border: solid;
-}
-.recherche>div {
-  background-color: lightslategrey;
-}
