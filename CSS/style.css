@@ -8,28 +8,27 @@ div.conteneur {
   background-color: lightgreen;
   height: 100px;
   border: solid;
- }
- .conteneur>div {
-   background-color: lightskyblue;
-   
- }
- .element-z>div {
-   display: inline-block;
-   color: #0065FC;
- }
- #circle {
-   border-radius: 50%;
-   padding: 1px;
-   background-color: #DEEBFF;
-   display: flex;
-   justify-content:space-around;
-   }
-   #circle>div {
-     color: #0065FC;
-   }
-   div.recherche {
-     border: solid 3px black;
-     border-width: 2px;
-     border-radius: 20px;
-     display: flex;
-   }
+}
+.conteneur > div {
+  background-color: lightskyblue;
+}
+.element-z > div {
+  display: inline-block;
+  color: #0065fc;
+}
+#circle {
+  border-radius: 50%;
+  padding: 1px;
+  background-color: #deebff;
+  display: flex;
+  justify-content: space-around;
+}
+#circle > div {
+  color: #0065fc;
+}
+div.recherche {
+  border: solid 3px black;
+  border-width: 2px;
+  border-radius: 20px;
+  display: flex;
+}
