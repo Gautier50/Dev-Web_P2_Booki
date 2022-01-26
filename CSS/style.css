@@ -12,23 +12,78 @@ div.conteneur {
 .conteneur > div {
   background-color: lightskyblue;
 }
+
 .element-z > div {
   display: inline-block;
-  color: #0065fc;
+  border-top: 2px #0065fc solid;
+  padding: 12px;
 }
-#circle {
-  border-radius: 50%;
-  padding: 1px;
-  background-color: #deebff;
-  display: flex;
-  justify-content: space-around;
+
+a:hover {
+  color:#0065fc;
 }
-#circle > div {
-  color: #0065fc;
+.recherche {
+  background-color: #0065fc;
 }
 div.recherche {
   border: solid 3px black;
   border-width: 2px;
   border-radius: 20px;
   display: flex;
+  justify-content: flex-start;
+}
+
+
+#circle {
+  border-radius: 50%;
+  padding: 1px;
+  display: flex;
+  }
+
+#circle > div {
+  color: #0065fc;
+  
+  border-radius: 50%;
+  padding: 1px;
+  display: flex;
+  flex-direction: row;
+
+}
+div.billet {
+  border: solid #deebff;
+  border-radius: 20px;
+  background-color: #deebff;
+}
+
+div.homme {
+  color: #0065fc;
+  border: solid #deebff;
+  border-radius: 20px;
+  background-color: #deebff;
+}
+
+div.coeur {
+  color: #0065fc;
+  border: solid #deebff;
+  border-radius: 20px;
+  background-color: #deebff;
+}
+
+div.chien {
+  color: #0065fc;
+  border: solid #deebff;
+  border-radius: 20px;
+  background-color: #deebff;
+}
+
+*.icon-blue {
+  color: #0065fc;
+}
+
+i.fa-info {
+  display: inline-block;
+  border-radius: 30px;
+  box-shadow: 0px 0px 2px #f2f2f2;
+  padding: 0.5em 0.6em;
+  color: #0065fc;
 }
