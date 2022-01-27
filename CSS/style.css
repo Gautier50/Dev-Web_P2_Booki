@@ -15,65 +15,46 @@ div.conteneur {
 
 .element-z > div {
   display: inline-block;
-  border-top: 2px #0065fc solid;
   padding: 12px;
 }
 
-a:hover {
+.element2:hover,
+.element2:focus {
+  border-top: 2px #0065fc solid;
   color:#0065fc;
 }
-.recherche {
+.element3:hover,
+.element3:focus {
+  border-top: 2px #0065fc solid;
+  color:#0065fc;
+}
+
+.bouton_perso {
   background-color: #0065fc;
-}
-div.recherche {
-  border: solid 3px black;
-  border-width: 2px;
+  color: white;
   border-radius: 20px;
-  display: flex;
-  justify-content: flex-start;
+  font-weight: bold;
 }
 
-
-#circle {
-  border-radius: 50%;
-  padding: 1px;
+.filtres {
+  border: 2px solid black;
+  border-radius: 20px;
+  list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   }
 
-#circle > div {
+.logo {
+  background-color:#DEEBFF;
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  text-align: center;
   color: #0065fc;
-  
-  border-radius: 50%;
-  padding: 1px;
   display: flex;
-  flex-direction: row;
-
-}
-div.billet {
-  border: solid #deebff;
-  border-radius: 20px;
-  background-color: #deebff;
-}
-
-div.homme {
-  color: #0065fc;
-  border: solid #deebff;
-  border-radius: 20px;
-  background-color: #deebff;
-}
-
-div.coeur {
-  color: #0065fc;
-  border: solid #deebff;
-  border-radius: 20px;
-  background-color: #deebff;
-}
-
-div.chien {
-  color: #0065fc;
-  border: solid #deebff;
-  border-radius: 20px;
-  background-color: #deebff;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
 }
 
 *.icon-blue {
@@ -87,3 +68,20 @@ i.fa-info {
   padding: 0.5em 0.6em;
   color: #0065fc;
 }
+.cards1 {
+  width: auto;
+  list-style-type: none;
+  background-color: #F2F2F2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  justify-content: space-around;
+}
+.picture {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-size: cover;
+    max-width: 250px;
+    padding: 15px;
+   }
