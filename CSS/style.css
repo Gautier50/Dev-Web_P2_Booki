@@ -137,25 +137,27 @@ i.fa-info {
      color:#0065fc;
 }
 section {
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
   padding-top: 10px;
   padding-left: 30px;
   border: 5px solid red;
   background-color:#F2F2F2;
   border-radius: 20px;
-  height: auto;
-  width: auto;
 }
 
 div.wrapper {
-  height: 700px;
-  width: 900px;
-  border: 2px solid cyan;
+  height: 550px;
+  width: 750px;
+  border: 5px solid cyan;
   border-radius: 20px;
   display: flex;
   justify-content: space-between;
   }
 
 .box1 {
+  width: 150px;
   border: 2px solid grey;
   border-radius: 20px;
   background-color: white;
@@ -199,16 +201,16 @@ div.wrapper {
 }
 
 aside {
-  padding-top: 10px;
-  padding-left: 30px;
+  display: block;
+  display: flex;
+  flex-direction: column;
   border: 5px solid green;
   background-color:#F2F2F2;
   border-radius: 20px;
-  width: 350px;
-  height: auto;
-  margin-left: 650px;
-  flex-wrap: wrap;
+  width: 250px;
+  height: 550px;
 }
+
 article {
   border: 5px solid blue;
   border-radius: 20px;
