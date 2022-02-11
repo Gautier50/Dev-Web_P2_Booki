@@ -79,7 +79,7 @@ div.conteneur {
   justify-content: space-evenly;
   }
   
-.logo1{
+.logo1 {
   background-color:#DEEBFF;
   width: 35px;
   height: 35px;
@@ -90,7 +90,7 @@ div.conteneur {
   flex-direction: column-reverse;
   justify-content: space-evenly;
 }
-.logo2{
+.logo2 {
   background-color:#DEEBFF;
   width: 35px;
   height: 35px;
@@ -101,7 +101,7 @@ div.conteneur {
   flex-direction: column-reverse;
   justify-content: space-evenly;
 }
-.logo3{
+.logo3 {
   background-color:#DEEBFF;
   width: 35px;
   height: 35px;
@@ -112,7 +112,7 @@ div.conteneur {
   flex-direction: column-reverse;
   justify-content: space-evenly;
 }
-.logo4{
+.logo4 {
   background-color:#DEEBFF;
   width: 35px;
   height: 35px;
@@ -201,16 +201,25 @@ div.wrapper {
 }
 
 aside {
-  display: block;
+  padding-left: 10px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   border: 5px solid green;
   background-color:#F2F2F2;
   border-radius: 20px;
-  width: 250px;
+  width: 500px;
   height: 550px;
 }
-
+.container {
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.icon {
+  padding-top: 15px;
+  font-size: 20px;
+}
 article {
   border: 5px solid blue;
   border-radius: 20px;
