@@ -1,17 +1,23 @@
 body {
   font-family: "Raleway", sans-serif;
+  margin: 30px;
 }
 
 div.conteneur {
-  border: 5px solid lightsalmon;
-  border-radius: 20px;
   display: flex;
   justify-content: space-between;
+  
+  }
+  .element1 > img {
+    height: 50px;
+    width: 100px;
   }
 
 .element-z > div {
   display: inline-block;
   padding: 12px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .element2:hover,
@@ -23,6 +29,7 @@ div.conteneur {
 .element3:focus {
   border-top: 2px #0065fc solid;
   color:#0065fc;
+  
 }
 h2 {
   font-size: 20px;
@@ -32,10 +39,12 @@ p {
   margin: 3% 0 3% 0;
   font-size: 14px;
 }
+
 /* -------------------- BARRE DE RECHERCHE ----------------------- */
 h1 {
   font-size: 20px;
   margin: 0;
+  
 }
 p {
   margin: 3% 0 3% 0;
@@ -45,8 +54,6 @@ p {
 .recherche {
   border: 5px solid green;
   border-radius: 20px;
-  margin-bottom: 20px;
-  min-width: 330px;
   display: flex;
   flex-basis: 100%;
 }
@@ -74,7 +81,7 @@ form {
   border-radius: 0 15px 15px 0;
   border: 1px solid #0065fc;
   font-weight: 500;
-  width: 120px;
+  width: 130px;
   height: 50px;
   cursor: pointer;
 }
@@ -168,7 +175,6 @@ form {
 #hebergements {
   display: flex;
   flex-basis: 100%;
-  gap: 2%;
 }
 #hebergements h3 {
   font-size: 22px;
@@ -184,13 +190,15 @@ form {
   flex-basis: 66%;
   background-color: #f2f2f2;
   border-radius: 15px;
+  gap: 25px;
   padding: 30px;
 }
+
 .town {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 20px;
+  
 }
 .card {
   background-color: white;
