@@ -175,6 +175,7 @@ form {
 #hebergements {
   display: flex;
   flex-basis: 100%;
+  gap: 5%;
 }
 #hebergements h3 {
   font-size: 22px;
@@ -190,15 +191,12 @@ form {
   flex-basis: 66%;
   background-color: #f2f2f2;
   border-radius: 15px;
-  gap: 25px;
-  padding: 30px;
 }
 
 .town {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  
 }
 .card {
   background-color: white;
@@ -236,7 +234,7 @@ form {
   display: flex;
   align-items: center;
 }
-.card .star span {
+.card .star  {
   color: #f2f2f2;
 }
 .addMore {
@@ -298,47 +296,43 @@ form {
   transition: 0.4s ease-out;
 }
 /* ---------------- ACTIVITÉS ------------------- */
-article {
-  border: 5px solid blue;
-  border-radius: 20px;
-  height: auto;
-  width: auto;
+.activités {
+  flex-basis: 100%;
+  display: block;
+}
+.activities {
   display: flex;
-  flex-wrap: wrap;
-  grid-template-columns: 200px 200px 200px;
+  flex-wrap: nowrap;
+  gap: 16px;
+  flex-basis: 100%;
 }
-.card {
-  width: 400px;
-  box-shadow: 0px 5px 20px #F2F2F2;
+.activities h2 {
+  font-size: 22px;
 }
-.card-image {
-  border-radius: 20px;
-  height: 250px;
-  position: relative;
-  overflow: hidden;
-}
-.card-image img {
-  width: 150%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); 
-  transition-duration: .3s;
-  transition-timing-function: ease;
-}
-.card-body {
-  padding-left: 20px; 
-  box-sizing: border-box;
+.activities h3 {
+  background-color: white;
+  font-size: small;
+  margin: 20px;
 }
 /* ---------------- FOOTER ------------------- */
 footer {
-  border: 5px solid rgb(200, 0, 255);
-  border-radius: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+  
+  padding: 30px;
   background-color: #F2F2F2;
   height: 200px;
-  width: auto;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  
+}
+li {
+  list-style-type: none;
+  margin-top: 10px;
+}
+li a {
+  color: black;
+  text-decoration: none;
+}
+div > li {
+  font-weight: bold;
+  margin-bottom: 20px;
 }
