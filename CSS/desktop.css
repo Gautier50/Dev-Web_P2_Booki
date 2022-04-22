@@ -1,0 +1,90 @@
+@media screen and (min-width: 993px) {
+ 
+ .desktop {
+   display: none;
+ }
+ header {
+   flex-direction: row;
+ }
+ .container {
+   width: 100%;
+   flex-direction: row;
+ }
+ 
+ h2 {
+   padding: 20px;
+ }
+ 
+ .hebergements {
+   width: 100%;
+   justify-content: space-around;
+
+ }
+ .marseille {
+  width: 60%;
+}
+
+.popular-title {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.popular-card {
+  width: 90%;
+  height: 150px;
+  margin: auto;
+}
+
+.most-popular {
+  width: 35%;
+  justify-content: space-around;
+}
+.fa-chart-line:before {
+  margin: 30px;
+}
+
+.popular-card-columns {
+  width: 100%;
+  margin-bottom: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.town {
+  flex-wrap: wrap;
+}
+.activity-card {
+  width: 100%;
+  flex-direction: row;
+}
+.bloc-1 {
+width: 22%;
+height: 500px;
+}
+
+.card-large-1 {
+margin-top: 20px;
+}
+
+.bloc-2 {
+width: 22%;
+height: 500px;
+justify-content: space-evenly;
+}
+
+.bloc-3 {
+width: 22%;
+height: 500px;
+}
+
+.card-large-2 {
+margin-top: 20px;
+}
+
+.bloc-4 {
+  width: 22%;
+  height: 500px;
+  justify-content: space-evenly;
+}
+ 
+}

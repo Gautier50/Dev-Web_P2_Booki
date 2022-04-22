@@ -1,0 +1,172 @@
+@media screen and (min-width : 768px) and (max-width : 992px) {
+
+section {
+  align-items: center;
+}
+.container {
+  flex-direction: column;
+}
+.liens {
+  width: 100%;
+  border-bottom: 3px solid #F2F2F2
+}
+a:hover,
+a:focus {
+  color:#0065fc;
+  border-bottom: 3px #0065fc solid;
+  border-top: none;
+  cursor: pointer;
+}
+
+.filtres  {
+  margin: 15px;
+  align-items: center;
+}
+
+h2 {
+  padding: 20px;
+}
+
+h2#filtres {
+  align-items: flex-start;
+}
+
+.hebergements {
+  flex-direction: column;
+}
+
+.marseille {
+  background-color: white;
+  width: 100%;
+  padding-top: 0;
+  order: 2;
+}
+
+.popular-card-columns {
+  margin-bottom: 30px;
+  padding-top: 0;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.most-popular {
+  border-radius: 0;
+  padding-top: 0;
+  width: 100%;
+  align-items: center;
+  order: 1;
+}
+.popular {
+  height: 150px;
+  width: 100%;
+}
+
+.popular-card {
+  justify-content: flex-start;
+  width: 100%;
+  height: 150px;
+  margin: auto;
+}
+
+.popular-title {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.fa-chart-line:before {
+   margin: 30px;
+ }
+
+.town {
+  width: 100%;
+  padding-top: 0;
+  flex-flow: row wrap;
+}
+
+.addmore {
+  padding-left: 30px;
+}
+
+#activites {
+  margin-top: 0;
+}
+
+.activity-card {
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.bloc-1 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.card-medium-1 {
+  margin-bottom: 20px;
+}
+
+.bloc-2 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.bloc-3 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.card-small-2 {
+  margin-bottom: 20px;
+}
+
+.bloc-4 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.description {
+  width: 90%;
+  margin: auto;
+}
+
+.img-large-1 {
+width: 90%;  
+height: 350px;
+margin: auto;
+}
+.img-medium-1 {
+width: 90%;
+height: 350px;
+margin: auto;
+}
+.img-small-1 {
+width: 90%;
+height: 350px;
+margin: auto;
+}
+.img-large-2 {
+width: 90%;
+height: 350px;
+margin: auto;
+}
+.img-medium-2 {
+width: 90%;
+height: 350px;
+margin: auto;
+}
+.img-small-2 {
+width: 90%;
+height: 350px;
+margin: auto;
+}
+footer a:hover,
+a:focus {
+  color: black;
+  border-bottom: none;
+  cursor: pointer;
+}
+}
