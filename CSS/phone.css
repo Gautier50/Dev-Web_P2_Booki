@@ -6,6 +6,9 @@
   h2 {
     padding: 20px;
   }
+  h2#hebergements-marseille {
+    margin-left: 0;
+  }
   header {
     width: 100%;
     height: auto;
@@ -132,7 +135,6 @@
 .bloc-2 {
   width: 100%;
   height: auto;
-  margin-bottom: 20px;
 }
 
 .bloc-3 {

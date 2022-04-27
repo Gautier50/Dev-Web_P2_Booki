@@ -499,6 +499,13 @@ footer > section {
   line-height: 2em;
   margin: 20px;
   margin-top: -10px;
+  border-top: none;
+}
+footer a:hover,
+a:focus {
+  color: black;
+  border-top: none;
+  cursor: pointer;
 }
 
 a {
