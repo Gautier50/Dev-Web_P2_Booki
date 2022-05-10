@@ -18,6 +18,12 @@
     width: 100%;
     flex-direction: column;
   }
+  span.hebergements {
+    width: 50%;
+  }
+  span.activites {
+    width: 50%;
+  }
 
   nav {
   margin-top: 20px;
@@ -33,7 +39,6 @@
 }
   .liens {
    width: 100%;
-   margin-top: 10px;
    margin-bottom: 10px;
    display: flex;
    border-bottom: 3px solid #f2f2f2;

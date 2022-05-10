@@ -10,6 +10,13 @@ section {
   width: 100%;
   border-bottom: 3px solid #F2F2F2
 }
+span.hebergements {
+    width: 50%;
+  }
+  span.activites {
+    width: 50%;
+  }
+  
 a:hover,
 a:focus {
   color:#0065fc;
